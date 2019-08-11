@@ -45,6 +45,8 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^4.3.4",
-    "@types/styled-components": "^4.1.16"
+    "@types/styled-components": "^4.1.16",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
   }
 }
