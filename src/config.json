@@ -1,0 +1,10 @@
+{
+  "apiUrl": "https://imp-exp-api.herokuapp.com/",
+  "kiteUrl": "https://api.kite.trade/",
+  "apiUrlStocks": "http://localhost:3001/",
+  "equityUpdateTimeout": "30000",
+  "liveDataUpdateTimeout": "20000",
+  "trendChangeIndicatorTimeout": "300000",
+  "lastTradeDate": "",
+  "apiEnabled": false
+}

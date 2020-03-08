@@ -1,0 +1,185 @@
+{
+  "companies": [
+    {
+      "companyCode": "THOR",
+      "companyName": "THOR GMBH",
+      "address": "LANDWEHRSTRAßE 1, 67346 SPEYER,  EORI-CODE: DE3154181, GERMANY Phone : +49 6232 636 139",
+      "importRoles": ["shipper"]
+    },
+    {
+      "companyCode": "HEINRICH",
+      "companyName": "HEINRICH DEHN INTERNATIONALE SPEDITION GMBH",
+      "address": "LIEBIGSTRAE 92, 22113   HAMBURG,GERMANY   Phone : +49 40 736 20 141",
+      "importRoles": ["shipper"]
+    },
+    {
+      "companyCode": "ALKYL",
+      "companyName": "ALKYL AMINES CHEMICALS LTD.",
+      "address": "PLOT NO. D-6/1, MIDC KURKUMBH,  DIST. -PUNE 413802 INDIA.",
+      "importRoles": ["consignee"]
+    },
+    {
+      "companyCode": "MEHTA",
+      "companyName": "MEHTA PETRO REFINERIES LTD.",
+      "address": "D-2/CH-15, INDUSTRIAL ESTATE DAHEJ TALUKA – VAGRA, DIST – BHARUCH – 392130 GUJARAT.",
+      "importRoles": ["consignee"]
+    },
+    {
+      "companyCode": "DHL",
+      "companyName": "DHL LOGISTICS PVT.LTD.",
+      "address": "SILVER UTOPIA, 101A/B, 1ST FLOOR,  CARDINAL GRACIOUS ROAD CHAKALA ,  ANDHERI (E) MUMBAI - 400 099, INDIA",
+      "importRoles": ["notify-party"]
+    },
+    {
+      "companyCode": "TRANSCON",
+      "companyName": "TRANSCON FREIGHT SYSTEM PVT. LTD.",
+      "address": "306, III rd FLOOR, KUNTAL BLDG., MODY ESTATE, L.B.S. MARG, GHATKOPAR (W),  MUMBAI - 400 086",
+      "importRoles": ["notify-party"]
+    },
+    {
+      "companyCode": "GATEWAY",
+      "companyName": "GATEWAY DISTRIPARKS LTD",
+      "address": "VILLAGE-BHENKHAL, URAN-CHIRNER ROAD, URAN, RAIGAD",
+      "importRoles": ["cfs"]
+    },
+    {
+      "companyCode": "ALLCARGO",
+      "companyName": "ALLCARGO GLOBAL LOGISTICS",
+      "address": "VILLAGE-KOPROLI, PO-KOPROLI,  URAN, DIST. RAIGAD",
+      "importRoles": ["cfs"]
+    },
+    {
+      "companyCode": "TAKECARE",
+      "companyName": "Take Care Global Services",
+      "address": "Survey No: 28, Vlg. Dahiwali, Somatane, Kon-Savla Rd., Tal. Panvel, Dist. Raigad",
+      "importRoles": ["empty-yard"]
+    },
+    {
+      "companyCode": "EFC",
+      "companyName": "EFC LOGISTICS INDIA PVT LTD",
+      "address": "VILLAGE VESVI, PO DIGHODE,  TAL-URAN, DIST-RAIGAD",
+      "importRoles": ["empty-yard"]
+    },
+    {
+      "companyCode": "BABAJI",
+      "companyName": "BABAJI SHIVRAM",
+      "address": "VILLAGE VESVI, PO DIGHODE,  TAL-URAN, DIST-RAIGAD",
+      "importRoles": ["cha"]
+    }
+  ],
+  "loadingPorts": [
+    {
+      "code": "NY",
+      "description": "NEW YORK, NY"
+    },
+    {
+      "code": "H",
+      "description": "HAMBURG, GERMANY"
+    }
+  ],
+  "dischargePorts": [
+    {
+      "code": "NS",
+      "description": "NHAVA SHEVA, INDIA"
+    },
+    {
+      "code": "M",
+      "description": "MUNDRA, INDIA"
+    }
+  ],
+  "vessals": [
+    {
+      "code": "T",
+      "description": "TENO"
+    },
+    {
+      "code": "O",
+      "description": "OOCL WASHINGTON "
+    }
+  ],
+  "voyages": [
+    {
+      "code": "9140",
+      "description": "9140"
+    },
+    {
+      "code": "9138",
+      "description": "9138"
+    }
+  ],
+  "terms": [
+    {
+      "code": "DD",
+      "description": "DOOR / DOOR"
+    },
+    {
+      "code": "DP",
+      "description": "DOOR / PIER"
+    },
+    {
+      "code": "PD",
+      "description": "PIER / DOOR"
+    },
+    {
+      "code": "PP",
+      "description": "PIER / PIER"
+    }
+  ],
+  "charges": [
+    {
+      "code": "OF",
+      "description": "OCEAN FREIGHT"
+    },
+    {
+      "code": "THC",
+      "description": "THC CHARGES"
+    },
+    {
+      "code": "DOC",
+      "description": "DELIVERY ORDER CHARGES"
+    },
+    {
+      "code": "HS",
+      "description": "HAZ SURCHARGE"
+    },
+    {
+      "code": "DC",
+      "description": "DETENTION CHARGES"
+    }
+  ],
+  "containerTypes": [
+    {
+      "code": "20T",
+      "description": "20' TANK"
+    },
+    {
+      "code": "20DV",
+      "description": "20' DV"
+    },
+    {
+      "code": "20FR",
+      "description": "20' FR"
+    },
+    {
+      "code": "20RF",
+      "description": "20' RF"
+    },
+    {
+      "code": "20HC",
+      "description": "20' HC"
+    },
+    {
+      "code": "40DV",
+      "description": "40' DV"
+    },
+    {
+      "code": "40FR",
+      "description": "40' FR"
+    },
+    {
+      "code": "40RF",
+      "description": "40' RF"
+    }
+  ],
+  "terminals": ["JNPT", "NSICT", "NSIGT", "APMT", "BMCT"]
+}
