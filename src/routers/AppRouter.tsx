@@ -35,6 +35,9 @@ const One = lazy(() =>
 const Stocks = lazy(() =>
   import(/* webpackChunkName: "stocks" */ '../pages/stocks/components/Stocks')
 );
+const SwingStocks = lazy(() =>
+  import(/* webpackChunkName: "stocks" */ '../pages/stocks/components/SwingStocks')
+);
 export const AppRouter: React.FC = () => {
   const { appState, appDispatch } = useContext(AppContext);
   const { notificationState } = appState;
@@ -174,6 +177,8 @@ export const AppRouter: React.FC = () => {
           <PrivateRoute path="/importStatus" component={ImportStatusI} />
           <PrivateRoute exact path="/one" component={One} />
           <Route exact path="/stocks" component={StocksHome} />
+          <Route exact path="/swing" component={SwingStocks} />
+          
           <Route exact path="/stocks/utility" component={UtilityS} />
           {/* <Route component={NoMatch} /> */}
         </Switch>

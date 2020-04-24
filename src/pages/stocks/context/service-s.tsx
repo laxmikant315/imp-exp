@@ -55,11 +55,23 @@ const getAccessToken = (requestToken: string) => {
     });
 };
 
+
+const getSwingStocks = () => {
+  return axios
+    .get(apiUrl + `getSwingStocks`)
+    .then(x => x.data)
+    .catch(x => {
+      console.log(x);
+    });
+
+};
+
 export {
   getIntradayStocks,
   getEquityInformation,
   getLiveStockInformation,
   getVolumeStocks,
   getAccessToken,
-  getStockDetails
+  getStockDetails,
+  getSwingStocks
 };

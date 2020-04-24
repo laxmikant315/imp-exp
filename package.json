@@ -30,7 +30,7 @@
     "socket.io-client": "^2.2.0",
     "speak-tts": "^2.0.8",
     "styled-components": "^4.4.1",
-    "styled-components-latest": "npm:styled-components",
+    "styled-components-latest": "npm:styled-components@^5.1.0",
     "tailwindcss": "^1.0.4",
     "typescript": "3.5.2",
     "yarn": "^1.17.3"
