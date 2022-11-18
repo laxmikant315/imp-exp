@@ -24,7 +24,7 @@
     "react-dom": "^16.8.6",
     "react-flip-toolkit": "^7.0.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-web-notification": "^0.6.1",
     "reqwest": "^2.0.5",
     "socket.io-client": "^2.2.0",
